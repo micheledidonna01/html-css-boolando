@@ -25,6 +25,40 @@ a{
     text-decoration:none;
     color:#FFFFFF;
 }
+
+.p-relative{
+    position:relative;
+}
+
+.bg-red{
+    background-color:red;
+    padding:7px 10px;
+    color:#FFFFFF;
+}
+
+.bg-green{
+    background-color:green;
+    padding:7px 10px;
+    color:#FFFFFF;
+}
+
+.color-red{
+    color:red;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color:black;
+}
+
+.h-red:hover{
+    color:red;
+}
+
+.fs-12{
+    font-size:12px;
+}
+
 /*****************
 INTESTAZIONE DELLA PAGINA
 *****************/
@@ -35,6 +69,7 @@ header{
     height:70px;
     width:100%;
     position:fixed;
+    z-index:1;
 }
 header .header-section{
     width:80%;
@@ -48,10 +83,69 @@ header .header-section .genere{
     font-weight:bold;
 }
 
+header .header-section .genere a:last-child{
+    margin-left:8px;
+}
+
 header img{
     width:140px;
 }
 
 header .header-section .shop{
     text-align:right;
+}
+
+
+/*****************
+CORPO DELLA PAGINA
+*****************/
+
+main{
+    padding-top:130px;
+}
+
+#menu-clothing{
+    flex-wrap: wrap;
+    justify-content:center;
+    align-item:center;
+    width:80%;
+    gap:20px;
+
+}
+
+main .card{
+    width:300px;
+}
+
+main .card img{
+    width:100%;
+
+}
+
+main .card .fa-heart{
+    font-size:20px;
+    position:absolute;
+    top:10px;
+    right:0;
+    padding:5px;
+    background-color:#FFFFFF;
+}
+
+main .card .info{
+    position:relative;
+    bottom:50px;
+    left:0;
+    font-size:10px;
+}
+
+main #menu-clothing .card > .images > .img2{
+    display:none;
+}
+
+main #menu-clothing .card > .images:hover .img1{
+    display:none;
+}
+
+main #menu-clothing .card > .images:hover .img2{
+    display:block;
 }
