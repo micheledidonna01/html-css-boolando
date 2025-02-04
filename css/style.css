@@ -101,7 +101,7 @@ CORPO DELLA PAGINA
 *****************/
 
 main{
-    padding-top:130px;
+    padding:130px 0;
 }
 
 #menu-clothing{
@@ -149,3 +149,31 @@ main #menu-clothing .card > .images:hover .img1{
 main #menu-clothing .card > .images:hover .img2{
     display:block;
 }
+
+
+/*****************
+PIEDE DELLA PAGINA
+*****************/
+
+footer{
+    color:#FFFFFF;
+    background-color:#1A1A1A;
+    padding:40px 0;
+}
+
+footer .footer-section{
+    width:80%;
+    justify-content:space-between;
+}
+
+footer .footer-section .right{
+    text-align:right;
+}
+
+footer .footer-section ul{
+    list-style-type:none;
+    display:flex;
+    font-size:14px;
+    font-weight:100;
+}
+
