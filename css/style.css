@@ -1,0 +1,57 @@
+/*****************
+COMMAND
+*****************/
+
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+.d-flex{
+    display:flex;
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+
+.mx-8{
+    margin:0 8px;
+}
+
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+/*****************
+INTESTAZIONE DELLA PAGINA
+*****************/
+
+header{
+    color:#FFFFFF;
+    background-color:#FF6900;
+    height:70px;
+    width:100%;
+    position:fixed;
+}
+header .header-section{
+    width:80%;
+    height:100%;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+header .header-section .genere{
+    font-weight:bold;
+}
+
+header img{
+    width:140px;
+}
+
+header .header-section .shop{
+    text-align:right;
+}
